@@ -2226,3 +2226,16 @@ textarea.input {
   text-transform: uppercase;
 }
 
+/* 클릭 효과 애니메이션 */
+.clicked {
+  animation: click-effect 0.2s;
+}
+
+@keyframes click-effect {
+  50% {
+      transform: scale(0.95);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
